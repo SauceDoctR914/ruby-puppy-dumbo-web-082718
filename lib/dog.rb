@@ -11,7 +11,7 @@ class Dog
   end
   
   def self.clear_all
-    @@all.map {|dog| @@all.pop(dog)}
+    @@all = []
   end
 
 end
