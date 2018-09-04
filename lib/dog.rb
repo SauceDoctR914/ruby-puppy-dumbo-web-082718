@@ -14,7 +14,7 @@ class Dog
     @@all = []
   end
   
-  def name
-   puts Dog.name
-  end
+  # def name
+  # puts Dog.name
+  # end
 end
