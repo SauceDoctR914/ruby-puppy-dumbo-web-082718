@@ -7,7 +7,7 @@ class Dog
   end
   
   def self.all
-    @@all
+    return @@all.name
   end
   
   def self.clear_all
