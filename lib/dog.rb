@@ -15,6 +15,6 @@ class Dog
   end
   
   def name
-   puts self.name
+   puts Dog.name
   end
 end
