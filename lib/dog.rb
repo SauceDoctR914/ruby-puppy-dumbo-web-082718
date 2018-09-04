@@ -7,11 +7,14 @@ class Dog
   end
   
   def self.all
-    @@all.name
+    @@all
   end
   
   def self.clear_all
     @@all = []
   end
+  
+  def name
+    @name = self
 
 end
