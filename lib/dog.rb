@@ -14,4 +14,5 @@ class Dog
     @@all.map {|dog| @@all.pop(dog)}
   end
 end
+
 end
