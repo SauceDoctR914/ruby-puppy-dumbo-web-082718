@@ -15,6 +15,6 @@ class Dog
   end
   
   def name
-    @name
+   puts @name
   end
 end
